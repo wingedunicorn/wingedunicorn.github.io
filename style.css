@@ -1,0 +1,75 @@
+/*body {margin:2rem;}*/
+
+a:hover, a:active {
+  text-decoration: none;
+  color: inherit; 
+}
+
+.btn {
+  margin-left: 10px;
+  margin-right: 10px;
+}
+/* Boostrap Buttons Styling */
+
+.btn-default {
+/*  font-family: Raleway-SemiBold;*/
+  font-size: 20px;
+  color: #FFF;
+  letter-spacing: 2px;
+  line-height: 20px;
+  border: 2px solid #000;
+  border-radius: 40px;
+  background: #000;
+  transition: all 0.3s ease 0s;
+}
+
+.btn-default:hover {
+  color: #FFF;
+  background: #000;
+  border: 2px solid #000;
+}
+
+.bg-gray {background-color:#cccccc;}
+
+.padding-0{
+    padding-right:0;
+}
+
+
+.card {
+    border: 1px solid var(--color-three);
+    margin-bottom: 20px;
+    transition: border 0.1s, transform 0.3s;
+}
+
+.card:hover {
+    border: 1px solid var(--color-two);
+    -webkit-transform: translateY(-10px);
+    transform: translateY(-10px);
+    cursor: pointer;
+}
+
+.card .card-body h2 {
+    color: var(--color-two);
+}
+
+.card img:hover {
+  opacity: 0.6;
+}
+
+.card-p {
+    color: var(--color-three);
+}
+
+.card-p i {
+    color: var(--color-two);
+    margin-right: 8px;
+}
+
+i.fa {
+  font-size: 30px;
+}
+
+.roundbg {
+  border-radius: 0.7rem;
+}
